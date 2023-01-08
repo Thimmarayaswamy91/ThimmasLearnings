@@ -1,6 +1,4 @@
 # Trouble Ticket Management
-
-
 Technologies Used:JAVA +SPRINGBOOT +JPA+MYSQL
 Trouble Ticket Microservice is based Representational State Transfer (REST) category. This allows you to perform "RESTful" operations like read, modify, add or delete data from your ticket.
 What can I do with the Trouble Ticket API?
