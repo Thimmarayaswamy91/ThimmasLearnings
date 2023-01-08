@@ -1,4 +1,5 @@
 # Trouble Ticket Management
+Technologies Used:JAVA +SPRINGBOOT +JPA+MYSQL
 Trouble Ticket Microservice is based Representational State Transfer (REST) category. This allows you to perform "RESTful" operations like read, modify, add or delete data from your ticket.
 What can I do with the Trouble Ticket API?
 With the APIs, you can
@@ -10,3 +11,23 @@ Write
 1.	Create new tickets or users and modify the details of existing ones.
 2.	Track the minutes you spend on tickets; Add time entries and start/stop timers.
 3.	Create solutions and answer FAQs.
+
+
+Sample JSON
+POST
+{myhost}/ticket/createTicket
+
+    {
+        "id": 11,
+        "name": "Network Outage",
+        "priority": 1,
+        "sourceType": "phone",
+        "ticketType": "complaint",
+        "customerId": "C1234",
+        "agentId": "AG567"
+        "attachments":[{}]
+    }
+   
+  
+    
+    
